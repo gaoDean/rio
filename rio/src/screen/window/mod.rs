@@ -30,7 +30,7 @@ pub fn create_window_builder(title: &str) -> winit::window::WindowBuilder {
             height: DEFAULT_MINIMUM_WINDOW_HEIGHT,
         })
         .with_resizable(true)
-        .with_decorations(true)
+        .with_decorations(false)
         .with_window_icon(Some(icon));
 
     #[cfg(target_os = "macos")]
