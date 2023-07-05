@@ -87,7 +87,7 @@ impl Screen {
         let sugarloaf_layout = SugarloafLayout::new(
             size.width as f32,
             size.height as f32,
-            (config.padding_x, constants::PADDING_Y),
+            (config.padding_x, 0),
             scale as f32,
             config.font_size,
             (MIN_COLUMNS, MIN_LINES),

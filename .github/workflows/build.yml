@@ -27,5 +27,5 @@ jobs:
       - name: upload artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: artifacts-${{ matrix.config.arch }}
+          name: macos-rio.zip
           path: "release/macos-rio.zip"
